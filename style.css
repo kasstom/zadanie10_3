@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box; }
+  body .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px solid #bcbcbc; }
+    body .container ul {
+      width: 2000px; }
+      body .container ul li {
+        display: inline-block;
+        float: left; }
+        body .container ul li img {
+          object-fit: cover;
+          width: 400px;
+          height: 300px; }
